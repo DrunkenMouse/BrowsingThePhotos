@@ -7,23 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "View.h"
 
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    View *_MeView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *tempView = [[UIView alloc] initWithFrame:self.view.frame];
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"1"]];
+    imgView.frame = tempView.frame;
+    [imgView setContentMode:UIViewContentModeScaleAspectFill];
+    [tempView addSubview:imgView];
+    _MeView = [[View alloc] initWithView:tempView withRatio:4];
+    [self.view addSubview:_MeView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

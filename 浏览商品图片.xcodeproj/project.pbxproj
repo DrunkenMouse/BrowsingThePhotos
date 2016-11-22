@@ -15,6 +15,7 @@
 		162C8E431DD5AE6C00B4192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8E411DD5AE6C00B4192B /* LaunchScreen.storyboard */; };
 		162C8E4E1DD5AE6C00B4192B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E4D1DD5AE6C00B4192B /* ______Tests.m */; };
 		162C8E591DD5AE6C00B4192B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E581DD5AE6C00B4192B /* ______UITests.m */; };
+		162C8E681DD5AE9500B4192B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E671DD5AE9500B4192B /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		162C8E541DD5AE6C00B4192B /* 浏览商品图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "浏览商品图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8E581DD5AE6C00B4192B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		162C8E5A1DD5AE6C00B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162C8E661DD5AE9500B4192B /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		162C8E671DD5AE9500B4192B /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				162C8E411DD5AE6C00B4192B /* LaunchScreen.storyboard */,
 				162C8E441DD5AE6C00B4192B /* Info.plist */,
 				162C8E331DD5AE6C00B4192B /* Supporting Files */,
+				162C8E661DD5AE9500B4192B /* View.h */,
+				162C8E671DD5AE9500B4192B /* View.m */,
 			);
 			path = "浏览商品图片";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162C8E681DD5AE9500B4192B /* View.m in Sources */,
 				162C8E3B1DD5AE6C00B4192B /* ViewController.m in Sources */,
 				162C8E381DD5AE6C00B4192B /* AppDelegate.m in Sources */,
 				162C8E351DD5AE6C00B4192B /* main.m in Sources */,
